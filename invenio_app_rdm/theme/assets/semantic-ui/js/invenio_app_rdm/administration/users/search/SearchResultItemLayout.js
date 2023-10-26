@@ -66,9 +66,9 @@ class SearchResultItemComponent extends Component {
             tooltip={result.confirmed_at}
             icon="check"
             color="green"
-            value={result.confirmed_at}
+            value={result.confirmed}
           />
-          <BoolFormatter icon="close" color="red" value={!result.confirmed_at} />
+          <BoolFormatter icon="close" color="red" value={!result.confirmed} />
         </Table.Cell>
         <Table.Cell
           collapsing
